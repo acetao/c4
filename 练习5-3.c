@@ -11,6 +11,7 @@ void CharPyramid( int n, char ch)
 		//打印字符:每个字符后一个空格
 		for(int j = 1; j <= i; j++)
 			printf("%c ", ch);
+		//换行
 		printf("\n");
 	}
 }
