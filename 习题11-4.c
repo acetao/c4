@@ -21,7 +21,7 @@ int main() {
 char *str_cat(char *s, char *t) {
   char *p = s;
   while (*p)
-    p++;
+    p++;       //定位到字符串s的末尾
   while (*t) {
     *p = *t;
     p++;
